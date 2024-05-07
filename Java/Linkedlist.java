@@ -1,13 +1,13 @@
-//Singly Linked list
+// Singly Linked list
 
 public class Linkedlist
 {
-    private Node head,tail;
+    private Node head, tail;
     private int size;
 
     public Linkedlist()
     {
-        this.size=0;
+        this.size = 0;
     }
 
     private class Node
@@ -17,7 +17,7 @@ public class Linkedlist
 
         public Node(int value)
         {
-            this.value=value;
+            this.value = value;
         }
         /*public Node(int value,Node next)
         {
@@ -29,22 +29,22 @@ public class Linkedlist
     public void insertFirst(int val)
     {
         Node node = new Node(val);
-        node.next=head;
-        head=node;
+        node.next = head;
+        head = node;
 
-        if(tail==null)
+        if(tail == null)
         {
-            tail=head;
+            tail = head;
         }
     }
 
     public void display()
     {
-        Node temp=head;
+        Node temp = head;
         while(temp != null)
         {
             System.out.print(temp.value + "->");
-            temp=temp.next;
+            temp = temp.next;
         }
         System.out.print("End");
         System.out.println();
@@ -52,26 +52,26 @@ public class Linkedlist
 
     public void insertend(int val)
     {
-        if(tail==null)
+        if(tail == null)
         {
             insertFirst(val);
             return;
         }
 
         Node node = new Node(val);
-        tail.next=node;
-        tail=node;
+        tail.next = node;
+        tail = node;
         size++;
     }
 
-    public void insert(int val,int index)
+    public void insert(int val, int index)
     {
-        if(index==0)
+        if(index == 0)
         {
             insertFirst(val);
             return;
         }
-        if(index==size)
+        if(index == size)
         {
             insertend(val);
             return;
