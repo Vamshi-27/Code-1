@@ -37,7 +37,7 @@ else:
     print("Its a normal day")
 '''
 
-'''
+
 name='V'
 name='Vamshi'
 name='jhgbsjhbdsajhbfkjcvjfakschuyjhfsh'
@@ -47,5 +47,5 @@ elif len(name)>20:
     print("Name must a maximum of 20 characters")
 else:
     print("Name looks good")
-'''
+
 print("The End")
