@@ -38,9 +38,9 @@ else:
 '''
 
 
-name='V'
+#name='V'
 name='Vamshi'
-name='jhgbsjhbdsajhbfkjcvjfakschuyjhfsh'
+#name='jhgbsjhbdsajhbfkjcvjfakschuyjhfsh'
 if len(name)<3:
     print("Name must be  atleast 3 characters")
 elif len(name)>20:

@@ -12,7 +12,7 @@ b="vamshi's laptop"
 c='vamshi"s mobile'
 
 # Multi line string
-d='''                                             
+d="""                                        
 hi ram
 
 here is my first email to you
@@ -20,7 +20,7 @@ here is my first email to you
 Thank you
 The support team
 
-'''
+"""
 #print(d)
 
 
