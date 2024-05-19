@@ -17,4 +17,4 @@ for i in range(6):
 if n==sec_no:
     print("Good job!.You guessed my number in ",i+1," guesses")
 else:
-    print("No\nThe number that i was thinking is ",sec_no,"\nBetter luck next time")
+    print("You failed this time\nThe number that i was thinking is ",sec_no,"\nBetter luck next time")
